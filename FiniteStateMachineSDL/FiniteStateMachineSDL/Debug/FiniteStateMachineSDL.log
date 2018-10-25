@@ -1,0 +1,3 @@
+﻿  Game.cpp
+c:\users\davem\desktop\gamesengineering2\finitestatemachinesdl\finitestatemachinesdl\game.cpp(73): warning C4838: conversion from 'Uint32' to 'int' requires a narrowing conversion
+  FiniteStateMachineSDL.vcxproj -> C:\Users\davem\Desktop\GamesEngineering2\FiniteStateMachineSDL\Debug\FiniteStateMachineSDL.exe
