@@ -66,7 +66,7 @@ Game::Game() {
 	renSys->addEntity(m_player);
 	m_player->addComponent(conCos);
 	conSys->addEntity(m_player);
-	aiSys->addEntity(m_player); 
+	//aiSys->addEntity(m_player); 
 
 
 
@@ -86,14 +86,14 @@ Game::Game() {
 	
 
 	//Cat
-	/*m_cat->addComponent(m_catHeal);
+	m_cat->addComponent(m_catHeal);
 	healSys->addEntity(m_cat);
 	m_cat->addComponent(m_catPos);
 	posSys->addEntity(m_cat);
 	m_cat->addComponent(m_catRen);
 	renSys->addEntity(m_cat);;
 	conSys->addEntity(m_cat);
-	aiSys->addEntity(m_cat); */
+	aiSys->addEntity(m_cat); 
 
 	//Dog
 	/*m_dog->addComponent(m_dogHeal);
