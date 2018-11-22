@@ -53,7 +53,7 @@ Game::Game() {
 	m_dogHeal = new HealthComponent();
 	m_dogPos = new PositionComponent();
 	m_dogRen = new RenderComponent();
-	//m_dogCon = new ControlComponent();
+	m_dogCon = new ControlComponent();
 
 	//*****************************
 
@@ -64,9 +64,9 @@ Game::Game() {
 	posSys->addEntity(m_player);
 	m_player->addComponent(renCos);
 	renSys->addEntity(m_player);
-	m_player->addComponent(conCos);
-	conSys->addEntity(m_player);
-	//aiSys->addEntity(m_player); 
+	//m_player->addComponent(conCos);
+	//conSys->addEntity(m_player);
+	aiSys->addEntity(m_player); 
 
 
 
@@ -96,14 +96,14 @@ Game::Game() {
 	aiSys->addEntity(m_cat); 
 
 	//Dog
-	/*m_dog->addComponent(m_dogHeal);
+	m_dog->addComponent(m_dogHeal);
 	healSys->addEntity(m_dog);
 	m_dog->addComponent(m_dogPos);
 	posSys->addEntity(m_dog);
 	m_dog->addComponent(m_dogRen);
 	renSys->addEntity(m_dog);
 	m_dog->addComponent(m_dogCon);
-	conSys->addEntity(m_dog); */
+	conSys->addEntity(m_dog); 
 
 	//m_alien->addComponent(m_alienHeal);
 	//healSys->addEntity(m_alien);

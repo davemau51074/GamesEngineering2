@@ -56,7 +56,7 @@ public:
 	HealthComponent * m_dogHeal;
 	PositionComponent * m_dogPos;
 	RenderComponent * m_dogRen;
-	//ControlComponent * m_dogCon;
+	ControlComponent * m_dogCon;
 
 	/*******************************/
 	Entity * m_alien;
