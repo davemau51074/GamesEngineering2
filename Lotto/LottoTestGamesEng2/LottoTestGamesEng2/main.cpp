@@ -59,7 +59,7 @@ int main()
 	}
 	else
 	{
-		std::cout << "eRROIC" << std::endl;
+		std::cout << "error" << std::endl;
 	}
 	system("PAUSE");
 	return 0;

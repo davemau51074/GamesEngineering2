@@ -1,1 +1,4 @@
-﻿  LottoTestGamesEng2.vcxproj -> C:\Users\davem\Desktop\LottoTestGamesEng2\Debug\LottoTestGamesEng2.exe
+﻿  main.cpp
+c:\users\davem\desktop\gamesengineering2\lotto\lottotestgameseng2\lottotestgameseng2\main.cpp(11): warning C4018: '<': signed/unsigned mismatch
+c:\users\davem\desktop\gamesengineering2\lotto\lottotestgameseng2\lottotestgameseng2\main.cpp(15): warning C4018: '<': signed/unsigned mismatch
+  LottoTestGamesEng2.vcxproj -> C:\Users\davem\Desktop\GamesEngineering2\Lotto\LottoTestGamesEng2\Debug\LottoTestGamesEng2.exe
